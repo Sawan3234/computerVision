@@ -1,0 +1,11 @@
+# PyTorch / YOLO model weights
+*.pt
+yolo11x.pt
+
+# Python virtual environments & cache
+venv/
+__pycache__/
+*.pyc
+
+# OS metadata
+.DS_Store
