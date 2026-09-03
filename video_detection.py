@@ -19,7 +19,7 @@ while True:
     results=model(frame,conf=0.5)
     result=results[0]
     for box in result.boxes:
-        class_id = int(box.cls[0])
+        class_id = int(box.cls[0])  
         class_name = model.names[class_id]
 
         confidence = float(box.conf[0])

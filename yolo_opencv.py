@@ -1,5 +1,6 @@
 # pyrefly: ignore [missing-import]
 import cv2
+# pyrefly: ignore [missing-import]
 from ultralytics import YOLO
 
 model=YOLO("yolo11n.pt")
